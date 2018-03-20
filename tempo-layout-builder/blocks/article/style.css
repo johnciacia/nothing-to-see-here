@@ -1,0 +1,125 @@
+/**
+ * Note that these styles are loaded *before* editor styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+.wp-block-gutenberg-examples-example-05-recipe-card-esnext .recipe-image {
+	background: #f1f1f1;
+	float: right;
+	width: 50%;
+	min-height: 100px;
+	text-align: center;
+}
+
+.wp-block-gutenberg-examples-example-05-recipe-card-esnext .recipe-image button {
+	margin-top: 30px;
+}
+
+.wp-block-gutenberg-examples-example-05-recipe-card-esnext .recipe-image button.image-button {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.wp-block-gutenberg-examples-example-05-recipe-card-esnext .recipe-image img {
+	display: block;
+	z-index: 1;
+	position: relative;
+}
+
+.wp-block-gutenberg-examples-example-05-recipe-card-esnext h2 {
+	font-size: 1.5em;
+}
+
+.wp-block-gutenberg-examples-example-05-recipe-card-esnext ul {
+	padding-left: 2.5em !important; /* Needs fix in Gutenberg. */
+}
+
+.container {
+	width: 100%;
+}
+
+.container:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.tile {
+	float: left;
+}
+
+article.tile {
+	max-width: 35.7%;
+}
+
+img {
+	position: relative;
+	float: left;
+	/*width:  100px;*/
+	height: 150px;
+	background-position: 50% 50%;
+	background-repeat:   no-repeat;
+	background-size:     cover;
+}
+
+aside.tile {
+	width: 25%;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.hero-image {
+	background: #f0f1f2;
+	overflow: hidden;
+}
+
+.info-caption {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	opacity: .6;
+	font-weight: normal;
+	line-height: 16px;
+	padding-top: 25%;
+	padding-bottom: 25%;
+}
+
+.redacted {
+	color: #f0f1f2;
+	background: #f0f1f2;
+	margin-top: 4px;
+	font-size: 8px;
+}
+.article-container {
+	padding: 5px;
+}
+
+.article-container:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.category {
+	font-size: 14px;
+}
+
+.title {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.foo {
+	height: 200px;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
